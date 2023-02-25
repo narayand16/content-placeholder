@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" media="(prefers-color-scheme:light)"
-     content="#4285f4" >
-    <meta name="theme-color" media="(prefers-color-scheme:dark)" content="black">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme:light)"
+      content="#4285f4"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme:dark)"
+      content="black"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" async></script>
     <title>Content Placeholder</title>
-</head>
-<body>
-    <script src="script.js"></script>
-
-</body>
+  </head>
+  <body>
+    <div class="card">
+      <div id="header" class="card-header animated-bg"></div>
+      <div class="card-content">
+        <h3 class="card-title animated-bg animated-bg-text" id="title"></h3>
+        <p id="excerpt" class="card-excerpt"></p>
+        <span class="animated-bg animated-bg-text"></span>
+        <span class="animated-bg animated-bg-text"></span>
+        <span class="animated-bg animated-bg-text"></span>
+      </div>
+      <div class="card-footer">
+        <div class="user-profile animated-bg" id="profile_img"></div>
+        <div class="user-info">
+          <strong class="animated-bg animated-bg-text" id="name"></strong>
+          <small class="animated-bg animated-bg-text" id="date"></small>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
